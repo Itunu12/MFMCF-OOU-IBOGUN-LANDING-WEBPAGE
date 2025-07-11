@@ -35,7 +35,7 @@ export default function EventsPage() {
               <div className="md:flex">
                 <div className="md:w-1/2">
                   <Image
-                    src="/Prayer-conf.png?height=300&width=400"
+                    src="/evt-img.jpg?height=300&width=400"
                     alt="Fellowship event photo"
                     width={400}
                     height={300}

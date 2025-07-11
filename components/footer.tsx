@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Heart, Facebook, Twitter, Instagram } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -8,8 +9,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center">
-                <Heart className="w-4 h-4 text-white" />
+              <div className="w-8 h-8 flex items-center justify-center">
+                <Image
+                  src="/logo.png?height=300&width=400"
+                  alt="Fellowship event photo"
+                  width={400}
+                  height={300}
+                  className="w-full h-64 md:h-full object-cover"
+                />
               </div>
               <span className="font-bold text-xl">MFMCF OOU Ibogun</span>
             </div>
