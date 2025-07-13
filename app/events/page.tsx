@@ -225,7 +225,7 @@ export default function EventsPage() {
                   and nation.
                 </p>
                 <div className="flex items-center text-sm text-gray-500 mb-4">
-                  <Clock className="w-4 h-4 mr-1" />6 hours
+                  <Clock className="w-4 h-4 mr-1" />6m hours
                 </div>
                 <Button variant="outline" className="w-full">
                   Join Prayer
